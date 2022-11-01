@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans';
+    margin: 0;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #a77800c1;
+    color: white;
+}
+  
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: #c1c1c1;
+    padding: 20px;
+}
+  
+.main {
+    flex: 70%;
+    background-color: rgba(255, 178, 85, 0.605);
+    padding: 20px;
+}
+  
+.fakeimg {
+    background-color: rgb(255, 204, 0);
+    width: 100%;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .row {   
+      flex-direction: column;
+    }
+}
